@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>-->
+    <link href="css/bootstrap_home.css" rel="stylesheet">
+	
+	<!--<link rel="stylesheet" href="css/reset_filtro.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style_filtro.css"> <!-- Resource style -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>Tutti i prodotti</title>
+</head>
+<body>
+	 <div class="container-fluid"> 
+  <div class="container">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header" href="index.html">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#inverseNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            <a href="index.html"><img src="images/logo-TIM.png"></a>
+          
+          </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="inverseNavbar1">
+        <form class="navbar-form navbar-right" role="search">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Cerca">
+            <span class="input-group-btn">
+            <button type="submit" class="btn btn-default">Cerca</button>
+            </span>
+          </div>
+        </form>
+        
+  
+  
+        
+          <ul class="nav navbar-nav navbar-right" id="top">
+            <li ><a href="prodotti.html">Prodotti<span class="sr-only">(current)</span></a></li>
+            <li><a href="tariffe.html">Tariffe</a></li>
+            <li><a href="sls.html">Smart Life</a></li>
+            <li><a href="assistenza.html">Assistenza</a></li>
+            <li href="cart.html" id="cart"><a id="CartA" href="cart.html"><img src="images/shopping_cart.png" href="cart.html" alt="Mail" class="hidden-xs" id="imgcart"></a> <a href="cart.html" class="hidden-lg hidden-md">Carrello</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+  </div>
+  </div>
+  <!--FINE BARRA SUPERIORE-->
+
+<div class="sottobarra"></div>
+<!-- riquadro sotto barra superiore per inizio pagina teoricamente invisibile-->
+
+	<main class="cd-main-content">
+        <div class="cd-tab-filter-wrapper">
+			<div class="cd-tab-filter">
+				<ul class="cd-filters">
+					<li class="placeholder"> 
+						<a id="yoma" data-type="all" href="#0"></a> <!-- selected option on mobile -->
+					</li> 
+					<li class="filter"><a id="yoma2" class="selected" href="#0" data-type="all">Tutti</a></li>
+					<li class="filter" data-filter=".smartphone"><a href="#0" data-type="color-1">Smartphone</a></li>
+					<li class="filter" data-filter=".tablet"><a href="#0" data-type="color-2">Tablet</a></li>
+				</ul> <!-- cd-filters -->
+			</div> <!-- cd-tab-filter -->
+		</div> <!-- cd-tab-filter-wrapper -->
+
+		<section class="cd-gallery">
+			<ul>
+				
+			</ul>
+			<div class="cd-fail-message">Non ci sono risultati</div>
+		</section> <!-- cd-gallery -->
+
+		<div class="cd-filter">
+			<form>
+				<div class="cd-filter-block">
+					<h4>Ricerca</h4>
+					
+					<div class="cd-filter-content">
+						<input type="search" placeholder="Cerca">
+					</div> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+
+				<div class="cd-filter-block">
+					<h4>Marca</h4>
+
+					<ul class="cd-filter-content cd-filters list">
+						<li>
+							<input class="filter" data-filter=".apple" type="checkbox" id="checkbox1">
+			    			<label class="checkbox-label" for="checkbox1">Apple</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".samsung" type="checkbox" id="checkbox2">
+							<label class="checkbox-label" for="checkbox2">Samsung</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".microsoft" type="checkbox" id="checkbox3">
+							<label class="checkbox-label" for="checkbox3">Microsoft</label>
+						</li>
+                        <li>
+							<input class="filter" data-filter=".lg" type="checkbox" id="checkbox4">
+							<label class="checkbox-label" for="checkbox4">LG</label>
+						</li>
+                        <li>
+							<input class="filter" data-filter=".huawei" type="checkbox" id="checkbox5">
+							<label class="checkbox-label" for="checkbox5">Huawei</label>
+						</li>
+					</ul> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+                
+                <div class="cd-filter-block">
+					<h4>Tipo</h4>
+
+					<ul class="cd-filter-content cd-filters list">
+						<li>
+							<input class="filter" data-filter=".tablet" type="checkbox" id="checkbox1">
+			    			<label class="checkbox-label" for="checkbox1">Tablet</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".iphone" type="checkbox" id="checkbox2">
+							<label class="checkbox-label" for="checkbox2">iPhone</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".smartphone" type="checkbox" id="checkbox3">
+							<label class="checkbox-label" for="checkbox3">Smartphone</label>
+						</li> 
+					</ul> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+                
+                <div class="cd-filter-block">
+					<h4>Sistema</h4>
+
+					<ul class="cd-filter-content cd-filters list">
+						<li>
+							<input class="filter" data-filter=".android" type="checkbox" id="checkbox1">
+			    			<label class="checkbox-label" for="checkbox1">Android</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".ios" type="checkbox" id="checkbox2">
+							<label class="checkbox-label" for="checkbox2">iOS</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".windows" type="checkbox" id="checkbox3">
+							<label class="checkbox-label" for="checkbox3">Windows</label>
+						</li>
+					</ul> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+
+				<div class="cd-filter-block">
+					<h4>Seleziona prezzo</h4>
+					
+					<div class="cd-filter-content">
+						<div class="cd-select cd-filters">
+							<select class="filter" name="selectThis" id="selectThis">
+								<option value="">Fascia di prezzo</option>
+								<option value=".0-200">0-200€</option>
+								<option value=".200-300">200-300€</option>
+								<option value=".300-500">300-500€</option>
+								<option value=".500-700">500-700€</option>
+                                <option value=".700-">>700€</option>
+							</select>
+						</div> <!-- cd-select -->
+					</div> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+            
+                 <div class="cd-filter-block">
+					<h4>Connessione</h4>
+
+					<ul class="cd-filter-content cd-filters list">
+						<li>
+							<input class="filter" data-filter=".3g" type="checkbox" id="checkbox1">
+			    			<label class="checkbox-label" for="checkbox1">3G</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".4glte" type="checkbox" id="checkbox2">
+							<label class="checkbox-label" for="checkbox2">4G LTE</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".4gplus" type="checkbox" id="checkbox3">
+							<label class="checkbox-label" for="checkbox3">4G PLUS</label>
+						</li>
+					</ul> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+				
+                 <div class="cd-filter-block">
+					<h4>Schermo</h4>
+
+					<ul class="cd-filter-content cd-filters list">
+						<li>
+							<input class="filter" data-filter=".5-2" type="checkbox" id="checkbox1">
+			    			<label class="checkbox-label" for="checkbox1">5.2"</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".5-7" type="checkbox" id="checkbox2">
+							<label class="checkbox-label" for="checkbox2">5.7"</label>
+						</li>
+
+						<li>
+							<input class="filter" data-filter=".18-4" type="checkbox" id="checkbox3">
+							<label class="checkbox-label" for="checkbox3">18.4"</label>
+						</li>
+					</ul> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+                
+                
+			</form>
+
+			<a href="#0" class="cd-close">Chiudi</a>
+		</div> <!-- cd-filter -->
+
+		<a href="#0" class="cd-filter-trigger">Filtri</a>
+	</main> <!-- cd-main-content -->
+    
+    <!--BARRA INFERIORE-->
+ <br>
+ <br>
+   <div class="container" id="bottom">
+   <nav class="navbar navbar-nav"> 
+   <div class="container">   
+      <div class="container-fluid btm">
+        <div class="text-center">
+          <ul class="nav nav-stacked center-block" id="col1">
+            <li><a href="chi_siamo.html">Chi Siamo</a></li>
+            <li><a href="#">Lavora con noi</a></li>
+          </ul>
+          <ul class="nav nav-stacked center" id="col2">
+            <li><a href="il_gruppo.html">Il gruppo</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      </nav>
+      </div>
+      
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.js"></script>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.mixitup.min.js"></script>
+<!--<script src="js/prodotti_tutti.js"></script>-->
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
