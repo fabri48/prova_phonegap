@@ -1,0 +1,133 @@
+@charset "utf-8";
+.navbar.navbar-inverse .container-fluid #inverseNavbar1 {
+	padding: none;
+	background-color: #004592;
+}
+.container .navbar.navbar-inverse .container-fluid {
+	padding: none;
+	background-color: #004592;
+}
+#col1 li a {
+	color: white;
+}
+
+.container-fluid .navbar-form.navbar-right .btn.btn-default {
+	width: auto;
+	background-color: #004592;
+	display: inline;
+}
+.form-group .btn.btn-default img {
+	height: 20px;
+}
+#CartA{
+    width:55px;
+    padding: 0;
+}
+.navbar-form.navbar-right .form-group {
+	border-left: none;
+	border-right-style: none;
+	border-bottom: none;
+	border-top: none;
+	display: inline-block;
+	border-right-width: 30px;
+}
+.container-fluid.btm .btn.btn-lg.btn-default {
+	color: white;
+}
+.container-fluid.btm {
+	background-color: #004592;
+	right: auto;
+	margin: auto;
+	width: 400px;
+	}
+	
+.container-fluid.wht {
+	background-color: #ffffff;
+	right:inherit;
+	}
+.container-fluid.btm ul {
+	list-style: none;
+	display: inline-block;
+	color: #00459c;
+}
+
+.navbar.navbar-default.navbar-fixed-top .container-fluid #topFixedNavbar1 {
+	background-color: #004592;
+}
+.nav.navbar-nav a  {
+	color: #ffffff;
+
+}
+
+#cart{
+    margin: 0px;
+}
+
+#imgcart  {
+	width:55px;
+}
+#imgcart:hover{
+    border-style: solid;
+    border-color: white;
+}
+.container-fluid #inverseNavbar1 .nav.navbar-nav.navbar-right {
+	color: white;
+}
+.nav.navbar-nav.navbar-right li a {
+	margin-left: 20px;
+	text-shadow: none;
+	color: white;
+}
+.nav.navbar-nav.navbar-right li a:hover{
+    border-style: solid;
+    border-color: white;
+}
+#imgcart {
+	display: inline;
+}
+.container .container-fluid.btm ul li a {
+	color: white;
+}
+
+#col1 li a:hover{
+    color: red;
+    border-style: solid;
+    border-color: white;
+    background: none;
+}
+#col2 li a:hover{
+    color: red;
+    border-style: solid;
+    border-color: white;
+    background: none;
+}
+
+#inverseNavbar1 #top #cart {
+	display: inline-block;
+}
+#inverseNavbar1 #top .hidden-md {
+	text-decoration-color: white;
+	display: inline;
+	margin-top: 5px;
+}
+.container .container-fluid.btm #col1 {
+	margin-left: px;
+
+}
+
+.container .container-fluid.btm #col2 {
+
+}
+.navbar.navbar-nav.col-sm-12 {
+	background-color: #004592;
+}
+.input-group .input-group-btn .btn.btn-default {
+	width: auto;
+	background-color: #004592;
+	color: #ffffff;
+}
+
+.sottobarra{
+	background:#ffffff;
+	min-height: 50px;
+}

@@ -1,0 +1,300 @@
+@charset "utf-8";
+.centrato {
+	box-shadow: none;
+	background-color: transparent;
+	align-content: center;
+	
+}
+
+#gallery{
+	padding: 20px;
+	margin:0 auto;
+	align-content:center;
+	align-items:center;
+	text-align:center;
+	align-self:center;
+	max-width:1000px;
+	
+	
+}
+
+
+.container-fluid .centrato{
+	box-shadow: none;
+	background-color: transparent;
+	align-content: center;
+
+}
+.container-fluid .centrato .corpo{
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	margin:auto;
+	display:inline-block;
+		
+	}
+	
+	#esterno{
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	margin:0;
+		
+	}
+	
+	.container-fluid .centrato .elenco{
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	display: inline-block;
+	width: 400px;
+	vertical-align: middle;
+	text-overflow: ellipsis;
+	height: 400px;
+	margin-bottom:10px;
+	
+	
+	}
+	
+	#contenitore{
+	margin: 0 auto;
+	text-align: center;
+	display:inline-block;
+	}
+	
+#colore, #linkscheda{
+    color: #004592;
+}
+
+.container-fluid .centrato .corpo .imm{
+	margin: 15px ;
+	width: 250px;
+	height:250px;
+	cursor:pointer;
+	}
+	
+.container-fluid .centrato .corpo .tabella{
+	margin:10px;
+	width: 495px;
+	height:250px;
+	text-height:120px;
+}
+	
+.textlinear{
+	
+	margin-top:20px;
+	font:Helvetica;
+	font-size:20px;
+	font-weight: bold;
+	margin:0;
+	padding: 15px;
+	text-align:center;
+    width: 45%;
+	color: #004592;
+	
+}
+.thumbs {
+    width:60px;
+}
+	
+.container-fluid .imm .intr{
+	background-image:url('/images/sls_home/Intrattenimento.jpg');
+	background-color:green;
+	}
+.container-fluid .centrato .corpo .imm .casa{
+	background-image:url('/images/sls_home/casa_benessere.jpg');
+	background-color: #cccccc;
+	}
+
+	
+.container-fluid .imm .intr span{
+	margin:0;
+	padding: 10px;
+    width: 100%;
+    color: #dedede;
+     
+    /*background: #222; /* browser che non supportano rgba */
+    /*background: rgba(0,0,0,0.7);*/
+    left: 0;
+	
+	font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    display: block;
+    padding-bottom: 5px;
+}
+	
+	
+.centrato res {
+	margin-top:20px;
+	font:Helvetica;
+	font-size:35px;
+	font-weight: bold;
+	margin:0;
+	padding: 25px;
+	text-align:center;
+    width: 100%;
+	color: #004592;
+	
+	
+
+}
+
+.container-fluid .centrato .corpo .titolo{
+	
+	
+	
+	width: 100%;
+	}
+   .container-fluid .elenco p{
+	
+	font:Helvetica;
+	font-size:30px;
+	font-weight: bold;
+	width: 100%;
+	color: #004592;
+	text-decoration:none;
+	
+	
+}
+
+ el{	
+	font-size:17px;
+	font:Helvetica;
+	color: #004592;
+	text-align:left;
+}
+#descrizione{
+	align-content:center;
+	align-items:center;
+	align-self:center;
+	text-align:center;
+	padding-left:40px;
+	
+	
+	
+	}
+
+.container-fluid .elenco li {
+	list-style:none;
+}
+
+.centrato h2{
+	margin-top: 20px;
+	font: Helvetica;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 0;
+	padding: 25px;
+	width: 100%;
+	color: #004592;
+	text-decoration: underline;
+	text-align: center;
+	
+	
+}
+
+
+ .circle{
+	border-color:#000000;
+	border:1px solid ;
+	border-radius: 30%;
+	width: 30px;
+	height: 30px;
+	display:inline-block; 	
+	vertical-align:middle;
+	
+		 
+ }
+ 
+ #colore{
+	 display:inline-block;
+	 font-size:20px;
+	 vertical-align:middle;
+	 text-decoration: none;
+	 
+ }
+
+.inline{
+ display:inline-block;	
+}
+ 
+ #tariffacons{
+	 padding:10px;
+	 
+ }
+ 
+ #titolotab{
+text-align:center;
+background-color:transparent;
+font-size: 16px;
+color: #004592;
+ }
+ 
+ td{
+	font-size:12px; 
+    
+ }
+.lista {
+    font-size:14px;
+    font-weight: bolder;
+}
+ 
+ #slscons{
+	 border-left:3px solid;
+	 border-color:#004592;
+	 padding:10px;
+ }
+ 
+ #linkscheda{
+	 display:inline-block;
+	 font-size:15px;
+	 vertical-align:middle;
+	 text-align:center;
+	 padding-left:20px;
+	 
+ }
+ 
+  #linkscheda:hover {
+	color:red; 
+ }
+ 
+ #prezzo{
+	font-size:24px;
+	color:#004592;
+	font-weight:bold;
+ 
+ }
+ 
+ #addtocart{
+	vertical-align:middle; 
+ }
+ .tabfont{
+	
+	font-size:16px;
+	background-color:transparent;
+	font-weight:bold;
+	border-bottom:1px solid;
+	border-bottom-color:#C4C4C4; 
+	width:300px;
+	box-shadow:none;
+ }
+ 
+ .divide{
+	font-size:16px;
+	border-bottom:1px solid;
+	border-bottom-color:#C4C4C4;
+	text-align:left;
+	 
+ }
+ 
+ #centro{
+	 vertical-align:middle;
+	 margin-top:20px;
+	 
+ }
+ 
+ #consigli{
+	margin-top:20px; 
+ }
+ 

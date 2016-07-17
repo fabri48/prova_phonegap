@@ -1,0 +1,281 @@
+@charset "utf-8";
+.centrato {
+	box-shadow: none;
+	background-color: transparent;
+	align-content: center;
+	
+}
+
+.container-fluid .centrato{
+	box-shadow: none;
+	background-color: transparent;
+	align-content: center;
+
+}
+.container-fluid .centrato .corpo{
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	margin:0;
+	max-width:500px;
+	
+	display:inline-block;
+		
+	}
+	
+	#esterno{
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	margin:0;
+		
+	}
+	
+	.container-fluid .centrato .elenco{
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	display: inline-block;
+	width:450px;
+	
+	margin:15px;
+	}
+	
+	.contenitore{
+	margin: 5px;
+	text-align: center;
+	display:inline-block;
+    border: 1px solid #004592;
+    width: 70%;
+        vertical-align: middle;
+    
+	}
+	
+.sottobarra{
+	background: #ffffff;
+	min-height: 60px;
+	}	
+	
+
+.container-fluid .centrato .corpo .imm{
+	margin: 15px ;
+	width: 250px;
+	height:250px;
+	cursor:pointer;
+	}
+	
+.container-fluid .centrato .corpo .tabella{
+	margin:10px;
+	width: 495px;
+	height:250px;
+	text-height:120px;
+}
+	
+textlinear{
+	
+	margin-top:20px;
+	font:Helvetica;
+	font-size:20px;
+	font-weight: bold;
+	padding: 15px;
+	text-align:center;
+    width: 45%;
+	color: #004592;
+	
+}
+	
+.container-fluid .imm .intr{
+	background-image:url('/images/sls_home/Intrattenimento.jpg');
+	background-color:green;
+	}
+.container-fluid .centrato .corpo .imm .casa{
+	background-image:url('/images/sls_home/casa_benessere.jpg');
+	background-color: #cccccc;
+	}
+
+	
+.container-fluid .imm .intr span{
+	margin:0;
+	padding: 10px;
+    width: 100%;
+    color: #dedede;
+     
+    /*background: #222; /* browser che non supportano rgba */
+    /*background: rgba(0,0,0,0.7);*/
+    left: 0;
+	
+	font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    display: block;
+    padding-bottom: 5px;
+}
+	
+	
+.centrato h1 {
+	margin-top:20px;
+	font:Helvetica;
+	font-size:35px;
+	font-weight: bold;
+	margin:0;
+	padding: 25px;
+	text-align:center;
+    width: 100%;
+	color: #004592;
+	
+
+}
+
+.container-fluid .centrato .corpo .titolo{
+	
+	
+	
+	width: 100%;
+	}
+   .container-fluid .elenco p{
+	
+	font:Helvetica;
+	font-size:20px;
+	font-weight: bold;
+	padding: 15px;
+    width: 100%;
+	color: #004592;
+	text-decoration:none;
+	margin: auto ;
+	cursor:pointer;
+	border:solid 2px #FF0004;
+	background-color:#E8FCFF;
+	vertical-align: middle;
+	text-overflow: ellipsis;
+	height:100%;
+}
+
+.container-fluid .elenco p:hover{
+	font:Helvetica;
+	font-size:20px;
+	font-weight: bold;
+	padding: 15px;
+    width: 100%;
+	color: #004592;
+	text-decoration:underline;
+	margin: auto ;
+	cursor:pointer;
+	border:solid 3px #FF0004;
+	background-color:#E8FCFF;
+	vertical-align: central;
+	text-overflow: ellipsis;
+	height:100%;
+}
+
+
+.centrato h2{
+	margin-top: 20px;
+	font: Helvetica;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 0;
+	padding: 25px;
+	width: 100%;
+	color: #004592;
+	text-decoration: underline;
+	text-align: center;
+	
+	
+}
+
+.alto {
+    position:absolute;
+    left:0; right:0;
+    height: 92px;
+}
+.sinistra {
+    
+    top:60px;
+    width: 200px;
+	float:left;
+	
+}
+.campo {
+    
+	background-color:white;
+}
+#sidebar{
+	background-color:white;
+		
+}
+.sidemenu{
+	position:relative;
+	
+	left:35px;
+	font-size:16px;
+	padding:5px;
+	color:#004592;	
+	width:100%;
+	}
+
+
+#myScrollspy .lista{
+ font-style:italic;	
+ color:#004592;
+	background-color:white;
+width:200px;
+text-align:center;
+border: 1px solid #004592;
+font-size:16px;
+border-color:transparent;
+height:100%;
+}
+
+#myScrollspy .lista:hover,#myScrollspy .lista a :hover{
+	text-decoration:underline;
+	color:#ffffff;	
+ background-color:#004592;
+	
+}
+
+#myScrollspy .lista a:active{
+    text-decoration:underline;
+	color:#ffffff;	
+ background-color:#004592;
+ border: 1px solid #004592;
+}
+
+#myScrollspy .lista:focus,#myScrollspy .lista a:focus{
+	text-decoration:underline;
+	color:#ffffff;	
+ background-color:#004592;
+ border: 1px solid #004592;
+}
+
+td{
+	margin:5px;
+	width:50px;
+	height:50px;
+}
+
+.spazio table{
+    margin:20px;
+}
+.centro{
+	
+margin-left:300px;	
+}
+	
+	p{
+		font-size:20px;
+		color:#004592;
+		font-weight:bold;
+		text-align:left;
+        width:100%;
+        background-color: lightgrey;
+		}
+.spazio{
+    margin: 30px;
+}
+.prezzo {padding-bottom: 20px;}
+.prezzo td{
+    color:red;
+    font-size: 25px;
+    font-weight: bold;
+    vertical-align: top;
+}
