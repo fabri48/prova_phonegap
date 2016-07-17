@@ -12,48 +12,7 @@
 		<feature name="http://api.phonegap.com/1.0/network"/>
 		
 <preference name="phonegap-version" value="cli-5.2.0" />
-<preference name="android-build-tool" value="gradle" />
-<preference name="orientation" value="default" />
-<preference name="fullscreen" value="false" />
-<preference name="target-device" value="universal" />
-<preference name="webviewbounce" value="true" />
-<preference name="prerendered-icon" value="false" />
-<preference name="stay-in-webview" value="true" />
-<preference name="ios-statusbarstyle" value="default" />
-<preference name="detect-data-types" value="true" />
-<preference name="exit-on-suspend" value="true" />
-<preference name="show-splash-screen-spinner" value="true" />
-<preference name="auto-hide-splash-screen" value="true" />
-<preference name="FadeSplashScreen " value="true" />
-<preference name="EnableViewportScale" value="false" />
-<preference name="MediaPlaybackRequiresUserAction" value="false" />
-<preference name="AllowInlineMediaPlayback" value="true" />
-<preference name="BackupWebStorage" value="none" />
-<preference name="TopActivityIndicator" value="white" />
-<preference name="KeyboardDisplayRequiresUserAction" value="true" />
-<preference name="KeyboardShrinksView " value="true" />
-<preference name="HideKeyboardFormAccessoryBar" value="true" />
-<preference name="SuppressesIncrementalRendering" value="false" />
-<preference name="windows-appx-target" value="8.1-win" />
-<preference name="windows-arch" value="anycpu" />
-<preference name="windows-identity-name" value="" />
-<preference name="android-minSdkVersion" value="17" />
-<preference name="android-installLocation" value="auto" />
-<preference name="SplashScreenDelay" value="2000" />
-<preference name="ErrorUrl" value="null" />
-<preference name="BackgroundColor" value="0x000000" />
-<preference name="DisallowOverscroll" value="true" />
-<preference name="LoadingDialog" value="," />
-<preference name="LoadUrlTimeoutValue" value="null" />
-		<platform name="ios">
-		<icon src="icon_official.png" width="60" height="60" />
-		</platform>
-		<platform name="android">
-		<icon src="file://C:\Users\admin\Desktop\icona_android.png" qualifier="hdpi" />
-		</platform>
-		<platform name="winphone">
-		</platform>
-		 <icon src="icon.png" />
+
 <access origin="http://provaphonegapfabri.altervista.org/" subdomains="true" />
 <access origin="*" />
 </widget>
