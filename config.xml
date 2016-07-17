@@ -8,15 +8,10 @@
 		<name>HypTIM</name>
 		<description></description>
 		<author href="" email=""></author>
-		<feature name="http://api.phonegap.com/1.0/battery"/>
-		<feature name="http://api.phonegap.com/1.0/camera"/>
-		<feature name="http://api.phonegap.com/1.0/contacts"/>
-		<feature name="http://api.phonegap.com/1.0/file"/>
-		<feature name="http://api.phonegap.com/1.0/geolocation"/>
-		<feature name="http://api.phonegap.com/1.0/media"/>
+		
 		<feature name="http://api.phonegap.com/1.0/network"/>
-		<feature name="http://api.phonegap.com/1.0/notification"/>
-<preference name="phonegap-version" value="cli-6.1.0" />
+		
+<preference name="phonegap-version" value="cli-5.2.0" />
 <preference name="android-build-tool" value="gradle" />
 <preference name="orientation" value="default" />
 <preference name="fullscreen" value="false" />
