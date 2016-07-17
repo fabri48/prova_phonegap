@@ -10,9 +10,21 @@
 		<author href="" email=""></author>
 		
 		<feature name="http://api.phonegap.com/1.0/network"/>
+        
+<gap:plugin name="cordova-plugin-whitelist" source="npm" version="~1" />
 		
-<preference name="phonegap-version" value="cli-5.2.0" />
 
-<access origin="http://provaphonegapfabri.altervista.org/" subdomains="true" />
+		<platform name="ios">
+		<icon src="icon_official.png" width="60" height="60" />
+		</platform>
+		<platform name="android">
+		<icon src="file://C:\Users\admin\Desktop\icona_android.png" qualifier="hdpi" />
+		</platform>
+		<platform name="winphone">
+		</platform>
+		 <icon src="icon.png" />
+<allow-intent href="*.provaphonegapfabri.altervista.org/*" />
+<allow-navigation href="*.provaphonegapfabri.altervista.org/*" />
+<access origin="http://*.provaphonegapfabri.altervista.org/" subdomains="true" />
 <access origin="*" />
 </widget>
