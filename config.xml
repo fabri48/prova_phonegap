@@ -46,18 +46,19 @@
 <preference name="android-installLocation" value="auto" />
 <preference name="SplashScreenDelay" value="2000" />
 <preference name="ErrorUrl" value="null" />
-<preference name="BackgroundColor" value="0x000000" />
+<preference name="BackgroundColor" value="0x004592" />
 <preference name="DisallowOverscroll" value="true" />
 <preference name="LoadingDialog" value="," />
 <preference name="LoadUrlTimeoutValue" value="null" />
 		<platform name="ios">
-		<icon src="file://C:\Users\admin\Desktop\icon_official.png" width="60" height="60" />
+		<icon src="icon_official.png" width="60" height="60" />
 		</platform>
 		<platform name="android">
-		<icon src="file://C:\Users\admin\Desktop\icona_android.png" qualifier="hdpi" />
+		<icon src="icona_android.png" qualifier="hdpi" />
 		</platform>
 		<platform name="winphone">
 		</platform>
 		 <icon src="icon.png" />
 <access origin="http://provaphonegapfabri.altervista.org/" subdomains="true" />
+<access origin="*" />
 </widget>
